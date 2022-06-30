@@ -4,7 +4,7 @@ public class User {
 	protected String lastName;
 	protected String passwrd;
 	
-	public void User(String fName, String lName, String pwd) {
+	public User(String fName, String lName, String pwd) {
 		firstName = fName; 
 		lastName = lName; 
 		passwrd = pwd;
@@ -32,3 +32,4 @@ public class User {
 	
 
 }
+
