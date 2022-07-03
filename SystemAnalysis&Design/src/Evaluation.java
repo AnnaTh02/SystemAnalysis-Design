@@ -6,6 +6,12 @@ public class Evaluation {
 	private String decision;  //by the Chairman
 	private String signature; //by the Chairman
 	
+	public Evaluation(String prop, String dec, String sign) {
+		proposition = prop;
+		decision = dec;
+		signature = sign;
+	}
+	
 	public String getProposition() {
 		return proposition;
 	}
@@ -29,6 +35,14 @@ public class Evaluation {
 	}
 	public void setSignature(String signature) {
 		this.signature = signature;
+	}
+	
+	public void printData() {
+		System.out.println("The proposition and comments are: " + proposition);
+		for (int i=0; i<comments.size(); i++) {
+			System.out.println(comments.get(i));
+		}
+		System.out.println("The final decision for the application is: " + decision);
 	}
 	
 	

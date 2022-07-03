@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 
 public class User {
 	protected String firstName;
 	protected String lastName;
 	protected String passwrd;
+	ArrayList<User> listUsers = new ArrayList<User>();
 	
 	public User(String fName, String lName, String pwd) {
 		firstName = fName; 
@@ -32,4 +34,3 @@ public class User {
 	
 
 }
-
