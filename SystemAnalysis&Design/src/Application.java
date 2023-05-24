@@ -44,6 +44,7 @@ public class Application {
 		System.out.println("Situation of evaluation: " + situation);
 		System.out.println("Protocol Number: " + protocolNum);
 		System.out.println("Date of the application: " + dateApplication);
+		System.out.println("Hello!");
 		if(documents.size() != 0) {
 		  System.out.println("Documents uploaded are: " + documents.get(0) + "," + documents.get(1));
 		}
